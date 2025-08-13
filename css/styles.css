@@ -546,6 +546,11 @@ text-align: center;
   border: none;
   border-radius: 4px;
 }
+.svg-icons-frame {
+  margin-left: 16px; 
+  fill: currentColor;
+}
+
 
     /* #endregion footer */
 
