@@ -489,14 +489,23 @@ text-align: center;
   background-color: #31d0aa;
 }
 
-.subscribe-footer-text {
-  margin-bottom: 16px;
+.subscribe-conteiner {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+.subscribe-footer-text {
+  margin-bottom: 16px;
+}
+
+.email-form {
+  display: flex;
+  gap: 24px;
+  
+}
+
 
     /* #endregion footer */
 
