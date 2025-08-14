@@ -629,6 +629,7 @@ text-align: center;
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .svg-icon-close:focus {
   fill: #ffffff;
 }
@@ -650,6 +651,20 @@ text-align: center;
   text-align: center;
   color: #2e2f42;
   margin-bottom: 16px;
+}
+
+.input-wrap {
+  margin-bottom: 8px;
+}
+
+.form-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+   color: #8e8f99;
+   display: block;
+   margin-bottom: 4px;
+
 }
 
     /* #endregion modal */
