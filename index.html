@@ -501,15 +501,20 @@
                   </div>
               </div>
 
-              <div class="input-wrap">
+              <div class="input-wrap-coment">
                 <label class="form-label" for="user-comment">
                   Comment
                 </label>
                 <textarea class="feedback" name="user-comment" id="user-comment" placeholder="Text input">                
                 </textarea>
               </div>
-
-            <button class="button" type="button" data-modal-open>Send</button>  
+              
+              <div class="checkbox-container">
+                <input class="visually-hidden" type="checkbox" id="user-privacy" value="true" name="user-privacy">
+                <label class="checkbox-label" for="user-privacy">I accept the terms and conditions of the</label>
+              </div>
+              
+              <button class="button-send" type="button" data-modal-open>Send</button>  
             </form>
       </div>
      <script src="./js/modal.js"></script>
