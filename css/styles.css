@@ -637,7 +637,10 @@ text-align: center;
 }
 
 .entering-information {
-  padding: 72px 24px 24px 24px;
+  padding-top: 72px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
 }
 .entering-information-text {
   font-family: "Roboto", sans-serif;
