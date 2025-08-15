@@ -653,6 +653,8 @@ text-align: center;
 
 .input-wrap {
   margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-label {
@@ -666,6 +668,10 @@ text-align: center;
 
 .post {
   position: relative;
+}
+
+.post:focus-within .modal-form-icon {
+  fill: #4d5ae5;
 }
 
 .input-field-email {
@@ -693,7 +699,6 @@ text-align: center;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: #4D5AE5;
 }
 
 .feedback {
@@ -725,6 +730,7 @@ text-align: center;
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
