@@ -784,6 +784,8 @@ text-align: center;
 .visually-hidden:checked + .modal-checkbox-label .checkbox-span {
   fill: #f4f4fd;
 }
+
+
 .send-button {
   transform: translateX(50%);
   display: block;
@@ -811,3 +813,18 @@ text-align: center;
 }
 
     /* #endregion modal */
+
+
+      /* #region hidden original checkbox */    
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+      /* #endregion hidden original checkbox */
